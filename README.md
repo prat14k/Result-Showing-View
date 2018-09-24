@@ -1,3 +1,3 @@
 # Result-Showing-View-
 
-![alt-text](Result-Showing-View-/ResultView Animation.gif)
+![alt-text](https://github.com/prat14k/Result-Showing-View-/blob/master/ResultView%20Animation.gif)
