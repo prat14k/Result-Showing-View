@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CenturyGothic.ttf">
+            <string>CenturyGothic</string>
+        </array>
+        <array key="GOTHICB.TTF">
+            <string>CenturyGothic-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QNN-6f-VMV" customClass="ResultView" customModule="LancomeNanoentek" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YRI_inner_pinkarc" translatesAutoresizingMaskIntoConstraints="NO" id="OAv-dy-eXu">
+                    <rect key="frame" x="99.5" y="56.5" width="127" height="127"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OAv-dy-eXu" secondAttribute="height" multiplier="1:1" id="vHk-96-NxW"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhN-7Z-8kz" userLabel="Yri Index Labels">
+                    <rect key="frame" x="130.5" y="76" width="65" height="79"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcJ-li-LOW" userLabel="HEading" customClass="ShadowableLabel" customModule="LancomeNanoentek" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="45.5" height="61.5"/>
+                            <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="50"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <size key="shadowOffset" width="-8" height="5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="kernValue">
+                                    <real key="value" value="4.25"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJ8-0j-jfL" customClass="ShadowableLabel" customModule="LancomeNanoentek" customModuleProvider="target">
+                            <rect key="frame" x="47.5" y="28" width="17.5" height="28"/>
+                            <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="22.5"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <size key="shadowOffset" width="-8" height="5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="kernValue">
+                                    <real key="value" value="1.8999999999999999"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tld-uR-Go1" userLabel="Space View">
+                            <rect key="frame" x="-0.5" y="61.5" width="65" height="4"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR INDEX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCT-pv-0tP" userLabel="Sub heading" customClass="ShadowableLabel" customModule="LancomeNanoentek" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="65.5" width="65" height="13.5"/>
+                            <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="11"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="kernValue">
+                                    <real key="value" value="0.20000000000000001"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="FCT-pv-0tP" firstAttribute="top" secondItem="tld-uR-Go1" secondAttribute="bottom" id="05E-cM-tEB"/>
+                        <constraint firstItem="tld-uR-Go1" firstAttribute="top" secondItem="vcJ-li-LOW" secondAttribute="bottom" id="1eD-6e-Lf8"/>
+                        <constraint firstItem="MJ8-0j-jfL" firstAttribute="baseline" secondItem="vcJ-li-LOW" secondAttribute="baseline" id="3Ej-Pw-AeT"/>
+                        <constraint firstItem="FCT-pv-0tP" firstAttribute="leading" secondItem="ZhN-7Z-8kz" secondAttribute="leading" id="5is-Zv-umm"/>
+                        <constraint firstAttribute="trailing" secondItem="FCT-pv-0tP" secondAttribute="trailing" id="9pU-2q-7hj"/>
+                        <constraint firstItem="vcJ-li-LOW" firstAttribute="top" secondItem="ZhN-7Z-8kz" secondAttribute="top" id="D9N-g7-SSF"/>
+                        <constraint firstAttribute="trailing" secondItem="MJ8-0j-jfL" secondAttribute="trailing" id="Nj3-Ui-g6D"/>
+                        <constraint firstAttribute="bottom" secondItem="FCT-pv-0tP" secondAttribute="bottom" id="VT7-ii-QoH"/>
+                        <constraint firstItem="tld-uR-Go1" firstAttribute="width" secondItem="ZhN-7Z-8kz" secondAttribute="width" id="ftw-g5-Z0W"/>
+                        <constraint firstItem="tld-uR-Go1" firstAttribute="centerX" secondItem="ZhN-7Z-8kz" secondAttribute="centerX" id="i2c-vn-OBk"/>
+                        <constraint firstItem="vcJ-li-LOW" firstAttribute="leading" secondItem="ZhN-7Z-8kz" secondAttribute="leading" id="mwG-QH-suA"/>
+                        <constraint firstItem="MJ8-0j-jfL" firstAttribute="leading" secondItem="vcJ-li-LOW" secondAttribute="trailing" constant="2" id="qga-Be-o8D"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="OAv-dy-eXu" firstAttribute="centerX" secondItem="QNN-6f-VMV" secondAttribute="centerX" id="4PB-5y-gQR"/>
+                <constraint firstItem="OAv-dy-eXu" firstAttribute="centerY" secondItem="QNN-6f-VMV" secondAttribute="centerY" id="9if-97-OPP"/>
+                <constraint firstItem="ZhN-7Z-8kz" firstAttribute="centerY" secondItem="OAv-dy-eXu" secondAttribute="centerY" constant="-5" id="Ast-fI-Teb"/>
+                <constraint firstItem="tld-uR-Go1" firstAttribute="height" secondItem="QNN-6f-VMV" secondAttribute="height" multiplier="9:490" id="gYh-Ng-Mld"/>
+                <constraint firstItem="OAv-dy-eXu" firstAttribute="height" secondItem="QNN-6f-VMV" secondAttribute="height" multiplier="260:490" id="pqa-Pl-8HY"/>
+                <constraint firstItem="ZhN-7Z-8kz" firstAttribute="centerX" secondItem="OAv-dy-eXu" secondAttribute="centerX" id="qjg-cA-Le4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="7PR-xy-xuw"/>
+            <connections>
+                <outlet property="pinkCircleView" destination="OAv-dy-eXu" id="MJ2-hu-ErI"/>
+                <outlet property="resultCountLabel" destination="vcJ-li-LOW" id="vfd-bG-6Rz"/>
+                <outlet property="resultCountView" destination="ZhN-7Z-8kz" id="wyM-pe-zvM"/>
+            </connections>
+            <point key="canvasLocation" x="9" y="267"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="YRI_inner_pinkarc" width="130" height="130"/>
+    </resources>
+</document>
